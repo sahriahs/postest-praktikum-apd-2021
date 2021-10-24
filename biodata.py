@@ -1,17 +1,17 @@
 #2. Buatlah Program sederhana dengan inputan biodata, dengan :
-#-Variable inputan minimal 5 
+#   -Variable inputan minimal 5 
 #    a.Nama
 #    b.NIM
 #    c.dan seterusnya
-#-Menggunakan tipe data STR,INT,FLOAT(Wajb)
-#-Output dibuat sekreatif mungkin
-#-Ditekaankan untuk menggunakan List
-#   *Modul 4
+#   -Menggunakan tipe data STR,INT,FLOAT(Wajb)
+#   -Output dibuat sekreatif mungkin
+#   -Ditekaankan untuk menggunakan List
+#    *Modul 4
 
 print("========= PROGRAM SEDERHANA INPUTAN BIODATA =========\n")
 
 biodata = []
-#biodata mahawiswa
+#biodata mahasiswa
 nama = str(input("masukkan nama: "))
 biodata.append(nama)
 
