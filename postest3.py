@@ -34,6 +34,6 @@ while not berhenti:
         berhenti = True
 
     else:
-        print("Tolong perhatikan lagi daftar pilihan yang kamu masukan ya\n\r")
+        print("Tolong perhatikan lagi daftar pilihan yang kamu masukan ya\n")
 
 print("\n========================================================")
