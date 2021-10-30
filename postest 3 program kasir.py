@@ -138,8 +138,8 @@ print(f"""
 ------------ S T R U K   B E L I ------------
 ---------------------------------------------
 Nama          : {pembeli}
-Beli          : {porsi} {jenis1} - {total1}
-                {gelas} {jenis2} - {total2}
+Beli          : {porsi} porsi {jenis1} - Rp{total1}
+                {gelas} {jenis2} - Rp{total2}
 Total         : Rp{totalsemua}
 Diskon        : - Rp{diskon}
 Total Tagihan : Rp{totaltagihan}
