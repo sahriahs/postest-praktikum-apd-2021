@@ -5,15 +5,15 @@ while lanjut == "y":
     ---------- MENU DI DEPOT KANG UJANG ----------
     ----------------------------------------------
         MAKANAN: 1. Bakso Biasa        Rp10.000
-                2. Bakso Spesial      Rp15.000
-                3. Mie Ayam Biasa     Rp10.000
-                4. Mie Ayam Bakso     Rp15.000
+                 2. Bakso Spesial      Rp15.000
+                 3. Mie Ayam Biasa     Rp10.000
+                 4. Mie Ayam Bakso     Rp15.000
 
         MINUMAN: 1. Teh Es/Teh Panas   Rp3.000
-                2. Es Jeruk           Rp5.000
+                 2. Es Jeruk           Rp5.000
                 
     ------------- PENAWARAN SPESIAL --------------
-    DISKON S.D 25% PADA HARI SENIN DAN JUMAT  
+       DISKON S.D 25% PADA HARI SENIN DAN JUMAT  
             *syarat dan ketentuan berlaku
     ----------------------------------------------""")
 
