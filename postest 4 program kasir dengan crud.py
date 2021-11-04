@@ -56,7 +56,7 @@ def tambah():
     for i in range(0, len(stok)):
         print(f"    {i + 1}. {stok[i]}")
     tambah = stok[int(input("pilih menu baru: ")) - 1]
-    harga = int(input("masukkan harga menu baru: "))
+    harga = int(input("masukkan harga menu baru: Rp"))
     makanan.append(tambah)
     hargamakanan.append(harga)
     print("menu baru telah di tambahkan")
@@ -65,10 +65,13 @@ def ubah():
     menu()
     x = int(input("pilih menu yang ingin diubah: ")) - 1
     menu_lama = makanan[x]
-    menu_baru = input("menu baru: ")
+    print(" ===== Stok Baru Di DEPOT KANG UJANG =====")
+    for i in range(0, len(stok)):
+        print(f"    {i + 1}. {stok[i]}")
+    menu_baru = stok[int(input("menu baru: ")) - 1]
     makanan[x] = menu_baru
     harga_lama = hargamakanan[x]
-    harga_baru = int(input("harga baru: "))
+    harga_baru = int(input("harga baru: Rp"))
     print(f"{menu_lama} Rp{harga_lama} telah diubah menjadi {menu_baru} Rp{harga_baru}")
 
 def hapus():
@@ -134,10 +137,10 @@ def diskon():
                 print("===== diskon 25% s.d. Rp100.000 =====")
             elif sum(total) >= 150000 and sum(total) < 300000:
                 diskon = int((10/100) * sum(total))
-                print("Anda mendapatkan diskon 10%")
+                print("============= diskon 10% =============")
             elif sum(total) >= 80000 and sum(total) < 150000:
                 diskon = int((5/100) * sum(total))
-                print("Anda mendapatkan diskon 5%")
+                print("============= diskon 5% =============")
             else:
                 print("Anda tidak mendapatkan diskon.")
         else:
@@ -202,7 +205,7 @@ def selamatdatang():
                 ubah()
             elif pilih == "4":
                 hapus()
-            elif pilih == "6":
+            elif pilih == "5":
                 break
             else:
                 print("menu salah. harap masukkan ulang")
